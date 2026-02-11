@@ -1,0 +1,5 @@
+﻿segment,n,churn_rate_%
+Fiber optic (tenure 0-6),620,74.2
+DSL (tenure 0-6),509,48.3
+Fiber optic (Month-to-month & tenure 0-6),619,74.2
+DSL (Month-to-month & tenure 0-6),494,49.6
