@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_05c4a20b1dbe491bde760a9bb19fc594 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_05c4a20b1dbe491bde760a9bb19fc594" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_05c4a20b1dbe491bde760a9bb19fc594 = L.map(
+                "map_05c4a20b1dbe491bde760a9bb19fc594",
+                {
+                    center: [37.56825, 126.985],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5efa07c3ab2ac6754adb402547c59efb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5efa07c3ab2ac6754adb402547c59efb.addTo(map_05c4a20b1dbe491bde760a9bb19fc594);
+        
+    
+            var marker_7242be733d143a4a4628a4b13d25682b = L.marker(
+                [37.5665, 126.978],
+                {
+}
+            ).addTo(map_05c4a20b1dbe491bde760a9bb19fc594);
+        
+    
+            var icon_9fa30a374e1aec1e6cfc45611e68eb50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_761b29586c934e749c39984cd96e8cd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f59e0722a03a31106beb78e2e3059d8d = $(`<div id="html_f59e0722a03a31106beb78e2e3059d8d" style="width: 100.0%; height: 100.0%;">집</div>`)[0];
+                popup_761b29586c934e749c39984cd96e8cd9.setContent(html_f59e0722a03a31106beb78e2e3059d8d);
+            
+        
+
+        marker_7242be733d143a4a4628a4b13d25682b.bindPopup(popup_761b29586c934e749c39984cd96e8cd9)
+        ;
+
+        
+    
+    
+                marker_7242be733d143a4a4628a4b13d25682b.setIcon(icon_9fa30a374e1aec1e6cfc45611e68eb50);
+            
+    
+            var marker_947f47d725afc28d4bda4532dfa82e4d = L.marker(
+                [37.57, 126.992],
+                {
+}
+            ).addTo(map_05c4a20b1dbe491bde760a9bb19fc594);
+        
+    
+            var icon_875940aba19d1a93e70893657ad6e466 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e8bd32b8b69895a0516d48a81a29ef3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3417a9dc5ab42e45e7ce8817fac79b95 = $(`<div id="html_3417a9dc5ab42e45e7ce8817fac79b95" style="width: 100.0%; height: 100.0%;">학원</div>`)[0];
+                popup_2e8bd32b8b69895a0516d48a81a29ef3.setContent(html_3417a9dc5ab42e45e7ce8817fac79b95);
+            
+        
+
+        marker_947f47d725afc28d4bda4532dfa82e4d.bindPopup(popup_2e8bd32b8b69895a0516d48a81a29ef3)
+        ;
+
+        
+    
+    
+                marker_947f47d725afc28d4bda4532dfa82e4d.setIcon(icon_875940aba19d1a93e70893657ad6e466);
+            
+    
+            var poly_line_98b4f4e90e08eab1b50bca65df059aa8 = L.polyline(
+                [[37.5665, 126.978], [37.57, 126.992]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_05c4a20b1dbe491bde760a9bb19fc594);
+        
+    
+            tile_layer_5efa07c3ab2ac6754adb402547c59efb.addTo(map_05c4a20b1dbe491bde760a9bb19fc594);
+        
+    
+                marker_7242be733d143a4a4628a4b13d25682b.setIcon(icon_9fa30a374e1aec1e6cfc45611e68eb50);
+            
+    
+                marker_947f47d725afc28d4bda4532dfa82e4d.setIcon(icon_875940aba19d1a93e70893657ad6e466);
+            
+    
+            var marker_455474bdc65cdfc4131c57d733238c7d = L.marker(
+                [37.5665, 126.978],
+                {
+}
+            ).addTo(map_05c4a20b1dbe491bde760a9bb19fc594);
+        
+    
+            var icon_5be0417e64a9c02acb587253530d6dee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4284072849e69386cc7beb18c472e7b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d686ac9400132570399126042000397f = $(`<div id="html_d686ac9400132570399126042000397f" style="width: 100.0%; height: 100.0%;">집</div>`)[0];
+                popup_4284072849e69386cc7beb18c472e7b2.setContent(html_d686ac9400132570399126042000397f);
+            
+        
+
+        marker_455474bdc65cdfc4131c57d733238c7d.bindPopup(popup_4284072849e69386cc7beb18c472e7b2)
+        ;
+
+        
+    
+    
+                marker_455474bdc65cdfc4131c57d733238c7d.setIcon(icon_5be0417e64a9c02acb587253530d6dee);
+            
+    
+            var marker_484c6db5463258cd20247f7e49ab7470 = L.marker(
+                [37.57, 126.992],
+                {
+}
+            ).addTo(map_05c4a20b1dbe491bde760a9bb19fc594);
+        
+    
+            var icon_60c9b7ca97f93944286e5296a4c401e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6eb151702152356a74d4ef261a97a3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b387447b5efb4c73e5dd9f86127cc3b = $(`<div id="html_1b387447b5efb4c73e5dd9f86127cc3b" style="width: 100.0%; height: 100.0%;">학원</div>`)[0];
+                popup_b6eb151702152356a74d4ef261a97a3f.setContent(html_1b387447b5efb4c73e5dd9f86127cc3b);
+            
+        
+
+        marker_484c6db5463258cd20247f7e49ab7470.bindPopup(popup_b6eb151702152356a74d4ef261a97a3f)
+        ;
+
+        
+    
+    
+                marker_484c6db5463258cd20247f7e49ab7470.setIcon(icon_60c9b7ca97f93944286e5296a4c401e8);
+            
+    
+            var poly_line_3e58d0138265ff26f3fe3fdf702a4ef1 = L.polyline(
+                [[37.5665, 126.978], [37.57, 126.992]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_05c4a20b1dbe491bde760a9bb19fc594);
+        
+</script>
+</html>
